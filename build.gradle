@@ -1,0 +1,19 @@
+plugins {
+    id 'groovy'
+    id 'application'
+}
+
+group 'org.no.experiment'
+version '1.0-SNAPSHOT'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.5.6'
+}
+
+application {
+    mainClassName = 'org.no.experiment.App'
+}
